@@ -1,0 +1,65 @@
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With id nav */
+#nav {
+}
+
+/* Any div Element  */
+div {
+}
+
+/* Any h2 Element  */
+h2 {
+}
+
+/***********************************************************************************************/
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid  "start with number"*/
+.1user-name {
+}
+
+/* not valid "can't use s @ and " */
+.@user-name {
+}
+
+/* not valid */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}
+/***********************************************************************************************/
+/* bad uppercase */
+.USERNAME {
+}
+
+/* bad bascallcase */
+.UserName {
+}
+
+/* Good kapapcase */
+.user-name {
+}
+
+/* bad camalcase ---- Good for JS */
+.userName {
+}
+
+/* bad lowercase */
+.usernameprofile {
+}
+/***********************************************************************************************/
