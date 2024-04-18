@@ -1,0 +1,29 @@
+.parent .child .title 
+{
+    color: red;
+}
+.parent .title
+{
+    color: blue ;
+}
+.parent p,
+.title
+{
+    color: green;
+}
+
+.one,
+.two,
+.three,
+.four
+{
+    color: white;
+    text-transform: capitalize;
+    background-color: brown;
+    padding: 15px;
+    margin: 15px;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 30px;
+    overflow: hidden;
+}
