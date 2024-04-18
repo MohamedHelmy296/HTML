@@ -1,0 +1,66 @@
+.Shadow
+{
+    text-transform: capitalize;
+    color: black;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0 #f24336 , 4px 4px 0 #2196f3 , 6px 6px 0 rgb(116, 9, 166) ;
+}
+
+.one,
+.two,
+.three
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.one
+{
+text-transform: uppercase;
+}
+.two
+{
+    text-transform: capitalize;
+}
+.three
+{
+    text-transform: lowercase;
+}
+
+.S_one,
+.S_two,
+.S_three
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    max-width:400px;
+}
+
+.S_three
+{
+    max-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a
+{
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    color: #eee;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #009688;
+    width: fit-content;
+    margin: 20px auto ;
+    padding: 30px 50px;
+    border-bottom: 10px solid #033036;
+}
