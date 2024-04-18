@@ -1,0 +1,60 @@
+.pone
+{
+    border: 5px solid red;
+    padding: 40px 80px;
+}
+.p
+{
+    background-color: #ddd;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: inherit;
+    border: inherit;
+
+}
+
+.a
+{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.b
+{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+.c
+{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: bold;
+}
+html
+{
+    font-size: 20px;
+}
+.pa,.pb,.pc{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.pa
+{
+    font-size: 2.5rem;
+}
+.pb
+{
+    font-size: 2rem;
+}
+.pc
+{
+    font-size: 1.5rem;
+}
