@@ -1,0 +1,59 @@
+.parent{
+    width: 800px;
+    background-color: #eee;
+    margin: 20px auto;
+}
+.parent div
+{
+    background-color: #ddd;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px ;
+    float: left;
+    margin-top: 15px ;
+    margin-left: 15px ;
+}
+.clear
+{
+    clear: both;
+}
+.row_one
+{
+    width: calc(100% - 30px);
+}
+.row_two
+{
+    width: calc((100% - 60px)/3);
+}
+.row_three
+{
+    width: calc((100% - 45px)/2);
+}
+.row_four
+{
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px ;
+
+}
+/******************************************************************/
+.normal,
+.one,
+.two
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(204, 204, 204); 
+    color: black;
+}
+.one
+{
+    background-color: rgb(204, 204, 204, .1); 
+}
+.two
+{
+    opacity : .1;
+}
