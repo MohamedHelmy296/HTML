@@ -1,0 +1,124 @@
+.green,
+.red,
+.blue,
+.black{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green{
+    background-color: #009688;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+.black{ 
+    background-color: #333333 ;
+    top: 30px;
+    left: 20px;
+    z-index: -1;
+}
+
+.blue{
+    background-color:#03a9f4 ;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.red{
+    background-color: #f44336;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+/************************************************/
+.hr-1
+{
+    margin-top:200px ;
+}
+.ass-2
+{
+    background-color: #eee;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid;
+    border-color: #f44336  #03a9f4;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right
+{
+    position: absolute ;
+    background-color: #03a9f4;
+    padding: 5px 12px;
+    color: white;
+    width: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-left{
+top: -15px ;
+left: -15px;
+border-right: 3px solid #f44336 ;
+}
+.bottom-left
+{
+    bottom: -15px ;
+    left: -15px;
+    border-right: 3px solid #f44336 ;
+}
+.top-right
+{
+    top: -15px ;
+    right:-15px;
+    border-left: 3px solid #f44336 ;
+}
+.bottom-right{
+    bottom: -15px ;
+    right:-15px;
+    border-left: 3px solid #f44336 ;
+}
+/*****************************/
+.hr-2{
+    margin-top: 30px;
+}
+.ASS-3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 50px auto;
+    list-style-type: none;
+}
+.html,
+.css,
+.js{
+    background-color: #eee;
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+.html ol li, 
+.css ol li{
+    background-color: white;
+    margin: 5px ;
+    padding: 5px;
+}
+.html ol, 
+.css ol{
+    margin: 5px;
+    padding-left: 25px;
+}
+.js li{
+    background-color: white;
+    margin: 5px ;
+    padding: 5px 10px;
+    list-style-position: inside;
+}
+.js ul{
+    margin: 10px;
+    padding-left: 0px;
+}
+/*********************************************/
